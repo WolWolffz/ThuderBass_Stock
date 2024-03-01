@@ -19,3 +19,11 @@ Como todo negócio, envolve-se riscos. O mercado de venda de vestuários não é
 Tendo isso em vista, um programa de gerenciamento de estoque e fluxo é imprencindivel para o devido controle de entrada e saída de produtos, oferecendo facilidade ao lojista para o gerenciamento de seu comércio, seja ele eletrônico ou presencial.
 
 O sistema já possui candidatos para testes de implementação e uso.
+
+#Estudos de reuso
+
+O gerenciador funcionará basicamente como uma interface para utilizar um banco de dados externo. A maior parte do sistema será de fabricação própria. Com isso, temos:
+
+Reuso de Aplicações - de forma interna, bancos de dados de terceiros serão utilizados dentro do sistema.
+Reuso de componentes - utiilizaremos pacotes e APIs de comunicação de banco de dados e de interface gráfica.
+Nosso sistema, no momento, não prevê reuso de métodos e funções específicas, fora as que estariam contempladas no reuso de componentes
