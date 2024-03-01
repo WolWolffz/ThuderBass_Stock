@@ -20,7 +20,7 @@ Tendo isso em vista, um programa de gerenciamento de estoque e fluxo é imprenci
 
 O sistema já possui candidatos para testes de implementação e uso.
 
-#Estudos de reuso
+# Estudos de reuso
 
 O gerenciador funcionará basicamente como uma interface para utilizar um banco de dados externo. A maior parte do sistema será de fabricação própria. Com isso, temos:
 
