@@ -25,5 +25,7 @@ O sistema já possui candidatos para testes de implementação e uso.
 O gerenciador funcionará basicamente como uma interface para utilizar um banco de dados externo. A maior parte do sistema será de fabricação própria. Com isso, temos:
 
 Reuso de Aplicações - de forma interna, bancos de dados de terceiros serão utilizados dentro do sistema.
-Reuso de componentes - utiilizaremos pacotes e APIs de comunicação de banco de dados e de interface gráfica.
+
+Reuso de componentes - utilizaremos pacotes e APIs de comunicação de banco de dados e de interface gráfica.
+
 Nosso sistema, no momento, não prevê reuso de métodos e funções específicas, fora as que estariam contempladas no reuso de componentes
