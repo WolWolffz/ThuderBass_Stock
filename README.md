@@ -29,3 +29,5 @@ Reuso de Aplicações - de forma interna, bancos de dados de terceiros serão ut
 Reuso de componentes - utilizaremos pacotes e APIs de comunicação de banco de dados e de interface gráfica.
 
 Nosso sistema, no momento, não prevê reuso de métodos e funções específicas, fora as que estariam contempladas no reuso de componentes
+
+Em questão de técnicas, utilizaremos Frameworks de Aplicação (na utilização do banco de dados) e Desenvolvimento Baseado em Componentes (para organização do código).
