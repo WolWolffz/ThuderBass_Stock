@@ -1,4 +1,4 @@
-# ThuderBass_Stock
+# Thuder_Stock
 
 Integrantes
 Luiz Henrique Silveira, 22.121.092-5
