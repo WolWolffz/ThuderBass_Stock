@@ -1,5 +1,5 @@
 <div style="allign:center;">
-<img src="https://github.com/WolWolffz/Thuder_Stock/blob/main/Banners/projeto-software.drawio.png?raw=true" alt="diagrama as-is"/>
+<img src="https://github.com/WolWolffz/Thuder_Stock/blob/main/projeto-software.drawio.png?raw=true" alt="diagrama as-is"/>
 </div> <br>
 
 # Thuder_Stock
