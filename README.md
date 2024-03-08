@@ -1,3 +1,7 @@
+<div style="allign:center;">
+<img src="https://github.com/WolWolffz/Thuder_Stock/blob/main/Banners/projeto-software.drawio.png?raw=true" alt="logo"/>
+</div> <br>
+
 # Thuder_Stock
 
 Integrantes
