@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T15:13:39.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="KlRfJKzxZjTdXHXeoy9s" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T15:44:29.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="lNfPKi9EaCg-IXArtjG9" version="24.3.1" type="github">
   <diagram name="Página-1" id="2OvAQuY1tDHqa5FM8Asj">
     <mxGraphModel dx="1161" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="ad_cgkr_enHD92OCqCtt-2" value="&amp;lt;&amp;lt;mensagem&amp;gt;&amp;gt;&lt;div&gt;DadosGerarPedido&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="500" width="160" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="ad_cgkr_enHD92OCqCtt-3" value="&lt;div&gt;- produtos: Array&amp;lt;Produto&amp;gt;&lt;/div&gt;&lt;div&gt;- pedido: DadosPedido&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ad_cgkr_enHD92OCqCtt-2" vertex="1">
+        <mxCell id="ad_cgkr_enHD92OCqCtt-3" value="&lt;div&gt;- produtos: Array&amp;lt;Produto&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ad_cgkr_enHD92OCqCtt-2" vertex="1">
           <mxGeometry y="40" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ad_cgkr_enHD92OCqCtt-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ad_cgkr_enHD92OCqCtt-2" vertex="1">
@@ -76,8 +76,8 @@
         <mxCell id="wkvvrL67AAQtG3lBJD8F-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Notificação&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ enviarNotificacao(DadosNotificacao): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="413" y="370" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wkvvrL67AAQtG3lBJD8F-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pedido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ inserirPedido(DadosPedido): void&lt;br&gt;+ buscarPedido(): DadosPedido&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="680" y="210" width="190" height="140" as="geometry" />
+        <mxCell id="wkvvrL67AAQtG3lBJD8F-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pedido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ inserirPedido(DadosGerarPedido): void&lt;br&gt;+ buscarPedido(String): DadosPedido&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="210" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
